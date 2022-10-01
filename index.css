@@ -1,0 +1,59 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: boder;
+
+}
+
+
+body{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      min-height: 100vh;}
+
+.wave{ position: relative;
+        width: 100%;
+        bottom: 0;
+        }
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background: rgb(0,11,118);
+    background: linear-gradient(180deg, rgba(0,11,118,1) 48%, rgba(133,184,122,1) 60%, rgba(255,255,255,1) 81%);
+
+    position: relative;
+    }
+
+    .img{
+        width: 30%;
+        height: 45%;
+        background-image: url(./ilustracion-concepto-aprendizaje_114360-6186.jpeg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        position: absolute;
+        top: 5%;
+        right: 0;
+    }
+
+    .tittle_header{
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        color: green;
+        font-size: 50px;
+        
+    }
+
+    .container{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 10%;
+
+    }
+
+    .card{
+        display: inline-block;
+        width: 40%;
+        box-shadow: 33px 20px 54px -6px rgba(133,184,122,0.75);
+        -webkit-box-shadow: 33px 20px 54px -6px rgba(133,184,122,0.75);
+        -moz-box-shadow: 33px 20px 54px -6px rgba(133,184,122,0.75);
+    }
